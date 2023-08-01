@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url("image2.webp") no-repeat center;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    color:crimson;
+}
+
+h1 {
+    margin-bottom: 50px;
+    font-size: 50px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+video {
+    width: 500px;
+    height: 300px;
+    border: 2px solid #ae1616;
+}
+
+button {
+    display:inline-block;
+    background:crimson;
+    color:#fff;
+    font-size:20px;
+    padding: 12px 36px;
+    margin-top:20px;
+    border-radius:4px;
+    border:2px solid crimson;
+    transition: all 0.3s ease;
+}
+button:hover {
+    color:crimson;
+    background: none;
+}
+
+footer {
+    background-color: #333;
+    color: #ad0c0c;
+    text-align: center;
+    padding: 10px;
+}
